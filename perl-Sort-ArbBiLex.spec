@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Sort
 %define	pnam	ArbBiLex
-%include	/usr/lib/rpm/macros.perl
 Summary:	Sort-ArbBiLex perl module
 Summary(pl):	Modu³ perla Sort-ArbBiLex
 Name:		perl-Sort-ArbBiLex
 Version:	3.32
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -23,7 +22,7 @@ Sort-ArbBiLex - tworzy funkcje sortuj±ce dla dowolnej kolejno¶ci
 sortowania.
 
 %prep
-%setup -q -n Sort-ArbBiLex-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
