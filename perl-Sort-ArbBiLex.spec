@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Sort
-%define	pnam	ArbBiLex
+%define		pdir	Sort
+%define		pnam	ArbBiLex
 Summary:	Sort::ArbBiLex perl module
 Summary(pl):	Modu³ perla Sort::ArbBiLex
 Name:		perl-Sort-ArbBiLex
