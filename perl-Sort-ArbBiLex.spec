@@ -3,7 +3,7 @@ Summary:	Sort-ArbBiLex perl module
 Summary(pl):	Modu³ perla Sort-ArbBiLex
 Name:		perl-Sort-ArbBiLex
 Version:	3.32
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
