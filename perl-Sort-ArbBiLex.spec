@@ -4,13 +4,13 @@
 Summary:	Sort::ArbBiLex perl module
 Summary(pl):	Modu³ perla Sort::ArbBiLex
 Name:		perl-Sort-ArbBiLex
-Version:	3.4
-Release:	2
+Version:	4.01
+Release:	1
 Epoch:		1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	9bfc995ddad841a094facd1b61db603c
+# Source0-md5:	9996bae43334fc9bb318e99f2d11cfc5
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
