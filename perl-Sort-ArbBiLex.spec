@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Sort-ArbBiLex
 Name:		perl-Sort-ArbBiLex
 Version:	3.1
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Sort/Sort-ArbBiLex-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Sort/Sort-ArbBiLex-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -18,7 +18,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Sort-ArbBiLex - makes sort functions for arbitrary sort orders.
 
 %description -l pl
-Sort-ArbBiLex - tworzy funkcje sortuj±ce dla dowolnej kolejno¶ci sortowania.
+Sort-ArbBiLex - tworzy funkcje sortuj±ce dla dowolnej kolejno¶ci
+sortowania.
 
 %prep
 %setup -q -n Sort-ArbBiLex-%{version}
