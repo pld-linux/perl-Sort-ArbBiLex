@@ -6,7 +6,7 @@
 %define		pdir	Sort
 %define		pnam	ArbBiLex
 Summary:	Sort::ArbBiLex perl module
-Summary(pl):	Modu≥ perla Sort::ArbBiLex
+Summary(pl.UTF-8):   Modu≈Ç perla Sort::ArbBiLex
 Name:		perl-Sort-ArbBiLex
 Version:	4.01
 Release:	1
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Sort::ArbBiLex - makes sort functions for arbitrary sort orders.
 
-%description -l pl
-Sort::ArbBiLex - modu≥ tworz±cy funkcje sortuj±ce dla dowolnej
-kolejno∂ci sortowania.
+%description -l pl.UTF-8
+Sort::ArbBiLex - modu≈Ç tworzƒÖcy funkcje sortujƒÖce dla dowolnej
+kolejno≈õci sortowania.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
