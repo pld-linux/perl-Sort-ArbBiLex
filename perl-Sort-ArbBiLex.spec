@@ -6,7 +6,7 @@
 %define		pdir	Sort
 %define		pnam	ArbBiLex
 Summary:	Sort::ArbBiLex perl module
-Summary(pl.UTF-8):   Moduł perla Sort::ArbBiLex
+Summary(pl.UTF-8):	Moduł perla Sort::ArbBiLex
 Name:		perl-Sort-ArbBiLex
 Version:	4.01
 Release:	1
