@@ -9,7 +9,7 @@ Summary:	Sort::ArbBiLex perl module
 Summary(pl.UTF-8):	Moduł perla Sort::ArbBiLex
 Name:		perl-Sort-ArbBiLex
 Version:	4.01
-Release:	1
+Release:	2
 Epoch:		1
 # same as perl
 License:	GPL v1+ or Artistic
