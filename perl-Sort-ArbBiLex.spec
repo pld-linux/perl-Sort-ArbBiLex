@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Sort
 %define		pnam	ArbBiLex
+%include	/usr/lib/rpm/macros.perl
 Summary:	Sort::ArbBiLex perl module
 Summary(pl.UTF-8):	Moduł perla Sort::ArbBiLex
 Name:		perl-Sort-ArbBiLex
@@ -16,6 +16,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	9996bae43334fc9bb318e99f2d11cfc5
+URL:		http://search.cpan.org/dist/Sort-ArbBiLex/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
