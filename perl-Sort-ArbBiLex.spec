@@ -4,7 +4,6 @@
 
 %define		pdir	Sort
 %define		pnam	ArbBiLex
-%include	/usr/lib/rpm/macros.perl
 Summary:	Sort::ArbBiLex perl module
 Summary(pl.UTF-8):	Moduł perla Sort::ArbBiLex
 Name:		perl-Sort-ArbBiLex
